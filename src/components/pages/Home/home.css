@@ -6,20 +6,24 @@
 .intro {
     font-family: 'Bebas Neue', sans-serif;
     color: #575759;
-    font-size: 6rem;
+    font-size: 8rem;
     position: relative;
-    margin: 0;
+    margin-top: 20rem;
     padding: 0;
-    line-height: 20px;
+    line-height: 70px;
+    letter-spacing: 5px;
+
 }
 
 .mount {
     position: relative;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 6rem;
+    font-size: 8rem;
+    line-height: 105px;
+    letter-spacing: 9px;
     margin: 0;
     padding-top: 0;
-    background: -webkit-linear-gradient(#3D3D84, black);
+    background: -webkit-linear-gradient(#3D3D84 35%, black);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
