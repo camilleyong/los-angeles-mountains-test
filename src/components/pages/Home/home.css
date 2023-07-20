@@ -8,3 +8,13 @@
     color: #575759;
     font-size: 6rem;
 }
+
+.mount {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 6rem;
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(#3D3D84, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
