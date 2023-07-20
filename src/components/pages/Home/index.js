@@ -19,7 +19,7 @@ export default function Home() {
             <p className='mount'>MOUNTAINS</p>
           </div>
           <div className='image'>
-          <img src={Image} alt="mountains" />
+          <img src={Image}  className='trans' alt="mountains" />
           </div>
         </div>
         </Parallax>
