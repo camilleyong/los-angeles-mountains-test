@@ -1,0 +1,10 @@
+.home-image {
+    position: relative;
+    height: 100vh;
+}
+
+.intro {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #575759;
+    font-size: 6rem;
+}
