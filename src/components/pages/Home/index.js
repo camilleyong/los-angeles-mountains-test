@@ -1,7 +1,7 @@
 import React from 'react';
 import { Parallax } from "react-parallax";
 import Sky from '../../assets/sky.jpg';
-import Image from '../../assets/transparent.png';
+import Image from '../../assets/snowy_mountain_png_by_absurdwordpreferred_d2l0r5a-414w-2x.png';
 import './home.css';
 
 export default function Home() {
