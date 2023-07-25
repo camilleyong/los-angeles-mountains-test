@@ -3,17 +3,19 @@ import "./css/nav.css";
 
 export default function Nav() {
   return (
-    <div className="navigation ">
+<div class="container">
+    <div className="row justify-content-evenly">
       <ul>
         <li>
-          <a href="" className="nav-link">Team
+          <a href="" className="col-4 link">Team
           </a>
         </li>
         <li>
-          <a href="" className="nav-link">History
+          <a href="" className="col-4 link">History
           </a>
         </li>
       </ul>
+    </div>
     </div>
   );
 }
