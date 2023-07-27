@@ -2,12 +2,13 @@ import React from 'react';
 import './css/nav.css';
 
 
-export default function Nav({ currentPage, handlePageChange }) {
+function Nav({ currentPage, handlePageChange }) {
   return (
+    <div className='navigation'>
     <div class="container">
     <div className="row justify-content-end">
     <ul className="nav nav-tabs">
-      <li className="col-4 link">
+      <li className="col-5 link">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -18,9 +19,9 @@ export default function Nav({ currentPage, handlePageChange }) {
           Home
         </a>
       </li>
-      <li className="col-4 link">
+      <li className="col-5 link">
         <a
-          href="#about"
+          href="#team"
           onClick={() => handlePageChange('About')}
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Team' ? 'nav-link active' : 'nav-link'}
@@ -28,9 +29,9 @@ export default function Nav({ currentPage, handlePageChange }) {
           Team
         </a>
       </li>
-      <li className="col-4 link">
+      <li className="col-5 link">
         <a
-          href="#blog"
+          href="#history"
           onClick={() => handlePageChange('Blog')}
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'History' ? 'nav-link active' : 'nav-link'}
@@ -41,5 +42,8 @@ export default function Nav({ currentPage, handlePageChange }) {
     </ul>
     </div>
     </div>
+    </div>
   );
 }
+
+export default Nav;

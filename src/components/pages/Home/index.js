@@ -13,7 +13,6 @@ export default function Home() {
     strength={800}
     className="home-image"
   >
-
         <div className='container' id="home">
           <div className='title'>
             <p className='intro'> LOSANGELES</p>
