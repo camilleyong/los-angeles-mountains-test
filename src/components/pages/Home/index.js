@@ -14,21 +14,6 @@ export default function Home() {
     className="home-image"
   >
 
-<div class="container">
-    <div className="row justify-content-end">
-      <ul>
-        <li>
-          <a href="" className="col-4 link">Team
-          </a>
-        </li>
-        <li>
-          <a href="" className="col-4 link">History
-          </a>
-        </li>
-      </ul>
-    </div>
-    </div>
-
         <div className='container' id="home">
           <div className='title'>
             <p className='intro'> LOSANGELES</p>
